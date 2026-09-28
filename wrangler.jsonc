@@ -1,0 +1,9 @@
+{
+  "name": "trendora-api",
+  "main": "dist/worker.mjs",
+  "compatibility_date": "2026-09-27",
+  "workers_dev": true,
+  "d1_databases": [{"binding":"TRENDORA_DB","database_name":"trendora-catalogue","database_id":"2cf5613f-675d-45c0-a2d8-b1b1113db821"}],
+  "triggers": {"crons":["0 */6 * * *"]},
+  "observability": {"enabled":true,"logs":{"enabled":true,"invocation_logs":true}}
+}
